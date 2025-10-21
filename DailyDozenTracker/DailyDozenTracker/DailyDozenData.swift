@@ -8,7 +8,7 @@
 import Foundation
 
 // 1. The blueprint for one item
-struct DailyDozenItem: Identifiable {
+struct DailyDozenItem: Identifiable, Codable {
     // This lets SwiftUI easily track changes
     let id = UUID()
     let name: String

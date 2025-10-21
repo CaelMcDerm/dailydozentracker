@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A379080D2EA8017500E834ED /* DailyDozenWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A37908032EA8017400E834ED /* DailyDozenWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A37907F32EA8000000E834ED /* DailyDozenTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37907F22EA8000000E834ED /* DailyDozenTrackerApp.swift */; };
+		A379083B2EA80D1D00E834ED /* DailyDozenWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A37908312EA80D1D00E834ED /* DailyDozenWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A37908452EA8108400E834ED /* AppGroupTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37908442EA8107000E834ED /* AppGroupTracker.swift */; };
+		A37908462EA8108400E834ED /* AppGroupTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37908442EA8107000E834ED /* AppGroupTracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A379080B2EA8017500E834ED /* PBXContainerItemProxy */ = {
+		A37908392EA80D1D00E834ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A37907E72EA8000000E834ED /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A37908022EA8017400E834ED;
-			remoteInfo = "DailyDozenWatchApp Watch App";
+			remoteGlobalIDString = A37908302EA80D1D00E834ED;
+			remoteInfo = "DailyDozenWatch Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -27,7 +30,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				A379080D2EA8017500E834ED /* DailyDozenWatchApp Watch App.app in Embed Watch Content */,
+				A379083B2EA80D1D00E834ED /* DailyDozenWatch Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,16 +39,18 @@
 
 /* Begin PBXFileReference section */
 		A37907EF2EA8000000E834ED /* DailyDozenTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyDozenTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A37908032EA8017400E834ED /* DailyDozenWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DailyDozenWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37907F22EA8000000E834ED /* DailyDozenTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDozenTrackerApp.swift; sourceTree = "<group>"; };
+		A37908312EA80D1D00E834ED /* DailyDozenWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DailyDozenWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37908442EA8107000E834ED /* AppGroupTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupTracker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A37908182EA806D400E834ED /* Exceptions for "DailyDozenTracker" folder in "DailyDozenWatchApp Watch App" target */ = {
+		A37908402EA80D6600E834ED /* Exceptions for "DailyDozenTracker" folder in "DailyDozenWatch Watch App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				DailyDozenData.swift,
 			);
-			target = A37908022EA8017400E834ED /* DailyDozenWatchApp Watch App */;
+			target = A37908302EA80D1D00E834ED /* DailyDozenWatch Watch App */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -53,7 +58,7 @@
 		A37907F12EA8000000E834ED /* DailyDozenTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				A37908182EA806D400E834ED /* Exceptions for "DailyDozenTracker" folder in "DailyDozenWatchApp Watch App" target */,
+				A37908402EA80D6600E834ED /* Exceptions for "DailyDozenTracker" folder in "DailyDozenWatch Watch App" target */,
 			);
 			path = DailyDozenTracker;
 			sourceTree = "<group>";
@@ -61,6 +66,16 @@
 		A37908042EA8017400E834ED /* DailyDozenWatchApp Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "DailyDozenWatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		A37908202EA80B2000E834ED /* DailyDozenWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DailyDozenWatch Watch App";
+			sourceTree = "<group>";
+		};
+		A37908322EA80D1D00E834ED /* DailyDozenWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DailyDozenWatch Watch App";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -73,7 +88,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A37908002EA8017400E834ED /* Frameworks */ = {
+		A379082E2EA80D1D00E834ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,7 +103,11 @@
 			children = (
 				A37907F12EA8000000E834ED /* DailyDozenTracker */,
 				A37908042EA8017400E834ED /* DailyDozenWatchApp Watch App */,
+				A37908202EA80B2000E834ED /* DailyDozenWatch Watch App */,
+				A37908322EA80D1D00E834ED /* DailyDozenWatch Watch App */,
 				A37907F02EA8000000E834ED /* Products */,
+				A37907F22EA8000000E834ED /* DailyDozenTrackerApp.swift */,
+				A37908442EA8107000E834ED /* AppGroupTracker.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				A37907EF2EA8000000E834ED /* DailyDozenTracker.app */,
-				A37908032EA8017400E834ED /* DailyDozenWatchApp Watch App.app */,
+				A37908312EA80D1D00E834ED /* DailyDozenWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,7 +135,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A379080C2EA8017500E834ED /* PBXTargetDependency */,
+				A379083A2EA80D1D00E834ED /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				A37907F12EA8000000E834ED /* DailyDozenTracker */,
@@ -128,26 +147,26 @@
 			productReference = A37907EF2EA8000000E834ED /* DailyDozenTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A37908022EA8017400E834ED /* DailyDozenWatchApp Watch App */ = {
+		A37908302EA80D1D00E834ED /* DailyDozenWatch Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A379080E2EA8017500E834ED /* Build configuration list for PBXNativeTarget "DailyDozenWatchApp Watch App" */;
+			buildConfigurationList = A379083C2EA80D1D00E834ED /* Build configuration list for PBXNativeTarget "DailyDozenWatch Watch App" */;
 			buildPhases = (
-				A37907FF2EA8017400E834ED /* Sources */,
-				A37908002EA8017400E834ED /* Frameworks */,
-				A37908012EA8017400E834ED /* Resources */,
+				A379082D2EA80D1D00E834ED /* Sources */,
+				A379082E2EA80D1D00E834ED /* Frameworks */,
+				A379082F2EA80D1D00E834ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A37908042EA8017400E834ED /* DailyDozenWatchApp Watch App */,
+				A37908322EA80D1D00E834ED /* DailyDozenWatch Watch App */,
 			);
-			name = "DailyDozenWatchApp Watch App";
+			name = "DailyDozenWatch Watch App";
 			packageProductDependencies = (
 			);
-			productName = "DailyDozenWatchApp Watch App";
-			productReference = A37908032EA8017400E834ED /* DailyDozenWatchApp Watch App.app */;
+			productName = "DailyDozenWatch Watch App";
+			productReference = A37908312EA80D1D00E834ED /* DailyDozenWatch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +182,7 @@
 					A37907EE2EA8000000E834ED = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
-					A37908022EA8017400E834ED = {
+					A37908302EA80D1D00E834ED = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
@@ -183,7 +202,7 @@
 			projectRoot = "";
 			targets = (
 				A37907EE2EA8000000E834ED /* DailyDozenTracker */,
-				A37908022EA8017400E834ED /* DailyDozenWatchApp Watch App */,
+				A37908302EA80D1D00E834ED /* DailyDozenWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -196,7 +215,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A37908012EA8017400E834ED /* Resources */ = {
+		A379082F2EA80D1D00E834ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,23 +229,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A37908452EA8108400E834ED /* AppGroupTracker.swift in Sources */,
+				A37907F32EA8000000E834ED /* DailyDozenTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A37907FF2EA8017400E834ED /* Sources */ = {
+		A379082D2EA80D1D00E834ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A37908462EA8108400E834ED /* AppGroupTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A379080C2EA8017500E834ED /* PBXTargetDependency */ = {
+		A379083A2EA80D1D00E834ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A37908022EA8017400E834ED /* DailyDozenWatchApp Watch App */;
-			targetProxy = A379080B2EA8017500E834ED /* PBXContainerItemProxy */;
+			target = A37908302EA80D1D00E834ED /* DailyDozenWatch Watch App */;
+			targetProxy = A37908392EA80D1D00E834ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -355,8 +377,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DailyDozenTracker/DailyDozenTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHT4MLTS8R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -369,7 +393,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = McDermottC.DailyDozenTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = McDermottC.DailyDozenTracker.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -386,8 +410,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DailyDozenTracker/DailyDozenTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHT4MLTS8R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -400,7 +426,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = McDermottC.DailyDozenTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = McDermottC.DailyDozenTracker.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -412,16 +438,18 @@
 			};
 			name = Release;
 		};
-		A379080F2EA8017500E834ED /* Debug */ = {
+		A379083D2EA80D1D00E834ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DailyDozenWatch Watch App/DailyDozenWatch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHT4MLTS8R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = DailyDozenWatchApp;
+				INFOPLIST_KEY_CFBundleDisplayName = DailyDozenWatch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = McDermottC.DailyDozenTracker;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -429,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = McDermottC.DailyDozenTracker.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = McDermottC.DailyDozenTracker.1.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -444,16 +472,18 @@
 			};
 			name = Debug;
 		};
-		A37908102EA8017500E834ED /* Release */ = {
+		A379083E2EA80D1D00E834ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DailyDozenWatch Watch App/DailyDozenWatch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHT4MLTS8R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = DailyDozenWatchApp;
+				INFOPLIST_KEY_CFBundleDisplayName = DailyDozenWatch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = McDermottC.DailyDozenTracker;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,7 +491,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = McDermottC.DailyDozenTracker.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = McDermottC.DailyDozenTracker.1.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -497,11 +527,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A379080E2EA8017500E834ED /* Build configuration list for PBXNativeTarget "DailyDozenWatchApp Watch App" */ = {
+		A379083C2EA80D1D00E834ED /* Build configuration list for PBXNativeTarget "DailyDozenWatch Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A379080F2EA8017500E834ED /* Debug */,
-				A37908102EA8017500E834ED /* Release */,
+				A379083D2EA80D1D00E834ED /* Debug */,
+				A379083E2EA80D1D00E834ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -28,8 +28,11 @@ struct ContentView: View {
                         Image(systemName: checklist[index].isComplete ? "checkmark.circle.fill" : "circle")
                             .foregroundColor(checklist[index].isComplete ? .green : .gray)
                             .onTapGesture {
-                                // 1. Toggle the status (Done/Not Done)
+                                // 1. Toggles the checkmark
                                 checklist[index].isComplete.toggle()
+                                
+                                // 2. SAVES the updated list to the shared mailbox!
+                                saveChecklist(list: checklist) // <--- THIS LINE IS CRITICAL
                             }
                     }
                 }
